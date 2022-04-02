@@ -1,0 +1,38 @@
+.top{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 8;
+}
+.box{
+   
+    padding: 20px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cont{
+   width: 100%;
+   height: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.parent{
+    display: grid;
+    grid-template-columns:1fr,1fr;
+}
+.text{
+    margin-left: 5px;
+    color:rgb(59, 59, 59)
+}
+.center{
+    position: relative;
+    top: 200px;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+.txt{
+    text-transform: capitalize;
+}
+.delbtn{
+    margin-right: 10px;
+}
